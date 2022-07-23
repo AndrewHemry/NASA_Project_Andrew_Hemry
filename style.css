@@ -12,19 +12,34 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* height: 100vh; */
 }
 
-.nasaText {
+.topBox {
+    margin:auto;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+div.topBox h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 400%;
+}
+
+/* .nasaText {
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 400%;
-}
+} */
 
 .bottomBox {
+    margin: auto;
     background-color: lightgrey;
     padding: 20px;
     width: 640px;
@@ -50,18 +65,4 @@ div.columnThree label {
     font-size: 85%;
 }
 
-
-/* .columnOne {
-
-}
-
-.columnTwo {
- line-height: 14px; 
-}
-
-.columnThree {
-}
-
-.formContactUs {
-} */
 
