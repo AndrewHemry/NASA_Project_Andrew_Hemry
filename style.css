@@ -8,14 +8,11 @@ html {
 
 body {
     margin: 0;
-}
-
-.pageBody {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    /* height: 100vh; */
 }
 
 .nasaText {
@@ -39,7 +36,22 @@ body {
     margin-top: 20px;
 }
 
-.columnOne {
+
+
+div.columnOne p {
+    font-size: 85%;
+}
+
+div.columnTwo p {
+    font-size: 85%;
+}
+
+div.columnThree label {
+    font-size: 85%;
+}
+
+
+/* .columnOne {
 
 }
 
@@ -51,5 +63,5 @@ body {
 }
 
 .formContactUs {
-}
+} */
 
