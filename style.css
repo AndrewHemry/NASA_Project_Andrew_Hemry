@@ -2,6 +2,54 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     margin: 0;
 }
+
+.pageBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.nasaText {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%;
+}
+
+.bottomBox {
+    background-color: lightgrey;
+    padding: 20px;
+    width: 640px;
+    height: 350px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.columnOne {
+
+}
+
+.columnTwo {
+ line-height: 14px; 
+}
+
+.columnThree {
+}
+
+.formContactUs {
+}
+
